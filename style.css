@@ -9,7 +9,6 @@ body{
     max-width: 1000px;
     display: block;
     margin: 0 auto;
-
 }
 .hero {
     background-image: url("./images/colombia3.jpg");
@@ -78,6 +77,8 @@ body{
 .columns img {
     width: 200px;
     height: 200px;
+    min-width: 20px;
+    min-height: 20px;
     border-radius: 50%;
 }
 #underline1{
@@ -101,7 +102,7 @@ body{
 .guide-show{ 
     display: block;
     margin: auto;
-    min-width: 700px;
+    min-width: 200px;
 }
 .guide-hide{
     display: none;
@@ -151,16 +152,30 @@ body{
 .container-guide{
     background: black;
 }
-@media (min-width:320px)  { 
+
+@media (max-width:700px)  { 
     .everything{
-        width: 100%;
-    }/* smartphones, iPhone, portrait 480x320 phones */ }
-@media (min-width:481px)  { 
-    .everything{
+        display: block;
         width: 100%;
     }
-    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-@media (min-width:641px)  { 
-    .everything{
-        width: 100%;
-    }/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+    .hero h1 {
+        font-size: 2em;
+    }
+    .columns img {
+        width: 100px;
+        height: 100px;
+        border-radius: 0;
+    }
+    #intro-activities{
+        font-size: 2em;
+    }  
+    #image-guide{
+        width: 150px;
+    }  
+    #second-hero{
+        font-size: 1em;
+    }
+    #third-hero{
+        font-size: 1em;
+    }
+}
