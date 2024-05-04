@@ -5,7 +5,7 @@ body{
 
 }
 .everything{
-    min-width: 100px;
+    min-width: 200px;
     max-width: 1000px;
     display: block;
     margin: 0 auto;
@@ -22,7 +22,7 @@ body{
     margin: 0;
     font-size: 80px;
 }
-.container0{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +101,7 @@ body{
 .guide-show{ 
     display: block;
     margin: auto;
-    width: 500px;
+    min-width: 700px;
 }
 .guide-hide{
     display: none;
@@ -150,5 +150,5 @@ body{
 }
 .container-guide{
     background: black;
-    min-width: 100px;
 }
+
