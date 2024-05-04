@@ -150,4 +150,5 @@ body{
 }
 .container-guide{
     background: black;
+    min-width: 100px;
 }
