@@ -164,7 +164,7 @@ body{
     .columns img {
         width: 100px;
         height: 100px;
-        border-radius: 0;
+        border-radius: 50%;
     }
     #intro-activities{
         font-size: 2em;
